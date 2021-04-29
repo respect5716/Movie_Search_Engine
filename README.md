@@ -39,5 +39,5 @@ then, connect **localhost:8501**
 
 ---
 
-![](result.png)
+![](https://github.com/respect5716/Movie_Search_Engine/blob/main/result.PNG)
 
