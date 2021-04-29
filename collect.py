@@ -9,11 +9,17 @@ import tensorflow_hub as hub
 from elasticsearch import Elasticsearch
 
 
+import logging
+logger = logging.getLogger("elasticsearch")
+logger.setLevel(logging.ERROR)
+
+
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--start_idx', type=int, default=10001)
 parser.add_argument('--end_idx', type=int,  default=202000)
 args = parser.parse_args()
+
 
 
 class MovieCollector(object):
