@@ -1,0 +1,7 @@
+tqdm
+beautifulsoup4
+streamlit
+elasticsearch
+tensorflow==2.4.1
+tensorflow_hub==0.12.0
+tensorflow_text==2.4.3

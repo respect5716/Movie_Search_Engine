@@ -1,0 +1,8 @@
+
+
+## Run
+
+```
+docker compose up
+```
+
