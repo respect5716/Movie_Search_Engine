@@ -4,8 +4,6 @@
 
 ## Objectives
 
----
-
 Movie search engine using 
 
 * [Multilingual Universal Sentence Encoder](https://arxiv.org/abs/1907.04307) 
@@ -18,8 +16,6 @@ Movie search engine using
 
 ## Run
 
----
-
 ```shell
 # Run docker
 git clone https://github.com/respect5716/Movie_Search_Engine.git
@@ -31,13 +27,11 @@ docker exec -it movie_app bash
 python collect.py
 ```
 
-then, connect **localhost:8501**
+then, connect to **localhost:8501**
 
 
 
 ## Result
-
----
 
 ![](https://github.com/respect5716/Movie_Search_Engine/blob/main/result.PNG)
 
